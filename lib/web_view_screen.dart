@@ -26,6 +26,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
           _webViewController?.loadUrl(Uri.dataFromString(fileContent,
                   mimeType: 'text/html', encoding: Encoding.getByName('utf-8'))
               .toString());
+
         },
         javascriptChannels: <JavascriptChannel>{
           JavascriptChannel(
